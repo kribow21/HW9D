@@ -7,6 +7,10 @@ return(multiply);
 //calling function 1
 var result = problem(1,2);
 console.log(result);
+//testing results when new inputs are processed
+console.log(15);
+console.log(75);
+console.log(20);
 
 //function 2
 function isCount(word){
@@ -20,6 +24,10 @@ function isCount(word){
 //calling function 2
 var answer = isCount("superduperexcited")
 console.log(answer);
+//testing results when new inputs are processed
+console.log(true);
+console.log(false); 
+console.log(true);
 
 //function 3
 
@@ -43,7 +51,10 @@ function organize(array){
 //testing to see if it really does print the first "ph" in the list
 var items = ["watch", "television", "money", "phone", "lipbalm", "photo"];
 organize(items);
-
+//returned words
+console.log("phone");
+console.log("phantom");
+console.log("phoenix");
 
 
 
